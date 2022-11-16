@@ -1,0 +1,119 @@
+body
+{
+	font-family: "Arial";
+}
+
+ul
+{
+	display: flex;
+	background-color: dimgray;
+	margin: 0px;
+	padding-left: 10px;
+	font-size: 0;
+	list-style: none;
+}
+
+li
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+	color: lightgrey;
+	font-size: 14px;
+}
+
+.nav1
+{
+	font-size: 22px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.nav2
+{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.nav3
+{
+	background-color: lightgray;
+	color: grey;
+}
+
+.carousel
+{
+	background-color: silver;
+	height: 200px;
+}
+
+h2
+{
+	font-size: 40px;
+	color: dimgray;
+	text-align: center;
+	font-weight: normal;
+}
+#fellows
+{
+	height: 210px;
+	width: 100px;
+	
+	
+	padding-bottom: 40px;
+}
+article
+{  
+	display: flex;
+	
+	background-color: silver;
+	width: 100px;
+	height: 100px;
+	margin-top: 20px;
+	
+	
+}
+
+
+
+
+
+.formulaire
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-top: solid gray 2px;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+input
+{
+	width: 100%;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	align-self: center;
+}
+
+textarea
+{
+	width: 100%;
+	height: 60px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
