@@ -57,29 +57,28 @@ h2
 	text-align: center;
 	font-weight: normal;
 }
-#fellows
-{
-	height: 210px;
-	width: 100px;
+
+.Articles
+{	display: flex;
+	flex-direction: row;
+	height: auto;
+	width: auto;
 	
 	
 	padding-bottom: 40px;
 }
+
 article
 {  
-	display: flex;
-	
 	background-color: silver;
-	width: 100px;
-	height: 100px;
+	width: 500px;
+	height: 300px;
 	margin-top: 20px;
-	
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
 	
 }
-
-
-
-
 
 .formulaire
 {
@@ -91,7 +90,8 @@ article
 	padding-top: 10px;
 }
 
-form {
+form 
+{
 	display: flex;
 	flex-direction: column;
 	width: 80%;
